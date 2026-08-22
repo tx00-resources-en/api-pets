@@ -7,6 +7,7 @@
     "weight": 2
   }
  */
+
 let petArray = [];
 
 let nextId = 1;

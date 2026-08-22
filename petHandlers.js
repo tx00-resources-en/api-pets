@@ -6,6 +6,7 @@ const getAllPets = (req, res) => {
   res.json(pets);
 };
 
+
 // POST /pets
 const createPet = (req, res) => {
   const { name, species, age, color, weight } = req.body; // 
